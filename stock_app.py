@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNyqUbWjAeBWb1Iqh9McWVv",
+      "authorship_tag": "ABX9TyOD2rUaYwURUv2nvTG/5dQd",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -51,7 +51,7 @@
         "\n",
         "# Get user input for stock symbol and date range\n",
         "stock_symbol = st.text_input('Enter Stock Symbol (e.g., AAPL)', 'AAPL')\n",
-        "start_date = st.date_input('Start Date', value=pd.to_datetime('2020-01-01'))\n",
+        "start_date = st.date_input('Start Date', value=pd.to_datetime('2014-01-01'))\n",
         "end_date = st.date_input('End Date', value=pd.to_datetime('today'))\n",
         "\n",
         "# Fetch stock data\n",
